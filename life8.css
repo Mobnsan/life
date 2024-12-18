@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    left: 0;
+    font-family:  'poppin',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+.div0{
+    background-attachment: fixed;
+    background: url(https://4kwallpapers.com/images/walls/thumbs_3t/20256.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+    transition: all .5s ease;
+    backdrop-filter: blur(8px);
+    padding: 20px 200px 20px 200px;
+    align-items: center;
+}
+nav h1{
+ color: rgb(214, 27, 27);
+
+  font-size: 40px; 
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+nav ul a{   
+    font-weight: 700;
+    position: relative;
+    color: rgb(207, 11, 11);    
+    margin: 0 10px;
+    font-size: 25px;
+    transition: all .5s ease-in-out;
+    display: flex;
+    text-decoration: none;
+    width: fit-content;
+    
+    
+}
+
+nav a::after{
+    transition: all .5s ease-in-out;
+    
+    content: "";
+    height: 3px;
+    background-color: rgb(109, 8, 8);
+   
+    position:absolute;
+    width: 0;
+    bottom: -13px;
+}
+nav a:hover:after{
+    width: 100%;
+}
+.mo{
+    position: relative;
+    height: 90vh;
+
+    
+    
+    z-index: 1;
+}
+.mo ul{
+    background: linear-gradient(45deg,rgb(167, 11, 11) 0%,rgb(190, 8, 32) 46%,rgb(221, 20, 20) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+                              
+    width: 40rem;
+    list-style: none;
+    text-align: start;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    
+    font-size: 2em;
+    opacity: 1;
+}
+.mo ul li{
+    font-weight: 900;
+    margin-top: 5px;
+    
+}
+.mo ul li:nth-of-type(3){
+    font-weight: 900;
+    font-size: 20px;
+}
+.mo .div1{
+    position: absolute;
+    top: 60%;
+    left: 11%;
+    font-size: 20px;
+    & a{
+        margin: 0 30px;
+        border: 2px solid rgb(107, 1, 1);
+        border-radius: 50%;
+        transition: all .5s ease-in-out;  
+        color: rgb(94, 3, 3);
+        padding: 8px 12px;
+        & .fab{
+            font-size: large;    
+            transition: all .5s ease;       
+        }
+    }
+}
+.div1 a:hover{
+box-shadow: 0 0 15px red,0 0 25px red, 0 0 50px red , 0 0 100px red;
+transform: scale(1.2);
+}
+.fab:hover{
+    transform: rotate(360deg) scale(1.1);
+}
+.mp{
+    margin-left:20% ;
+    animation: affiche;
+    animation-timeline: view(80 0%);
+}
+.div2::after {
+    content: ""; /* لا تنسَ إضافة المحتوى لجعل العنصر يظهر */
+    height: 44rem;
+    border-radius: 25px;
+    width: 1rem;
+    background-color: red;
+    position: absolute;
+    left:50%;
+    bottom: -74.5%;
+}
+
+.div2 .mun {
+    
+    width: 17rem;
+    margin: 20px 0;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 20px;
+    color: brown;
+    list-style: none;
+    background-color: aliceblue;
+}
+.mun:nth-of-type(2){
+    margin-left: 50%;
+
+}
+@keyframes affiche {
+    0%{
+        opacity: 0;
+        transform: translateX(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(30);
+    }
+}
+
+

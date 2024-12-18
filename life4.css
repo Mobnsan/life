@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    left: 0;
+    text-transform: capitalize;
+    font-style: italic;
+    
+}
+body{
+    background: url(https://wallpaperaccess.com/full/241346.jpg);
+    color: azure;
+}
+
+.div1{
+    
+    padding-bottom: 10px;
+    
+& h1,
+& p{
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+}
+}
+.div2{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    text-decoration: none;
+
+& a{
+    text-decoration: none;
+  
+    border-radius: 20px;
+    font-size: medium;
+    margin: 0 15px;
+    color: azure;
+
+}
+& a:nth-of-type(4){
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: hsla(0, 0%, 10%, .1);
+    border: 1px solid azure;
+}
+& a:nth-of-type(3){
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid azure;
+    
+}
+& a:nth-of-type(2){
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid azure;
+}
+& .ml:nth-of-type(1){
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid azure;
+}
+
+& .fa-bag-shopping{
+    position:absolute;
+
+    margin-left: 20px;
+    margin-top: -5px;
+    font-size: 2rem;
+}
+& span{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+& .fa-bag-shopping:hover,
+& span:hover{
+transform: scale(1.2);
+color: rgb(77, 250, 77);
+
+}
+}
+.div3 {
+    height: 1000px;
+    color: azure;
+
+
+    & .div5{
+        border: 1px solid rgb(255, 250, 250);
+        width: 25%;
+        height: 350px;
+        margin-left: 800px;
+        margin-top: -350px;
+        border-radius: 20px;
+        background-color: hsla(0, 0%, 10%, .1);
+        backdrop-filter: blur(8px);
+        transition: all .5s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+           
+            
+            
+            box-shadow: 0 0 5px rgb(248, 247, 247),0 0 25px rgb(248, 247, 247),0 0 50px rgb(248, 247, 247), 0 0 100px rgb(248, 247, 247);
+        }
+
+        & img{
+            margin-left: 35px;
+            margin-top: 15px;
+            width: 250px;
+            height: 170px;
+            border: 1px solid rgb(255, 234, 234);
+        
+        }
+        & p{
+            text-align: center;
+            margin-top: 40px;
+        }
+        & .in1{
+            margin-top: 30px;
+            margin-left: 60px;
+            padding: 15px 80px;
+            border-radius: 20px;
+        
+        }
+        & .in1:hover{
+            background-color:#2b3445 ;
+            color: #9fc5ef;
+            
+        }
+    }
+    & .div6{
+        border: 1px solid rgb(255, 255, 255);
+        width: 25%;
+        height: 350px;
+        margin-left: 440px;
+        margin-top: 50px;
+        border-radius: 20px;
+        background-color: hsla(0, 0%, 10%, .1);
+        backdrop-filter: blur(8px);
+
+        transition: all .5s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+           
+            
+            
+            box-shadow: 0 0 5px rgb(248, 247, 247),0 0 25px rgb(248, 247, 247),0 0 50px rgb(248, 247, 247), 0 0 100px rgb(248, 247, 247);
+        }
+        & img{
+            margin-left: 35px;
+            margin-top: 15px;
+            width: 250px;
+            height: 170px;
+            border: 1px solid rgb(255, 234, 234);
+        
+        }
+        & p{
+            text-align: center;
+            margin-top: 40px;
+        }
+        & .in1{
+            margin-top: 30px;
+            margin-left: 60px;
+            padding: 15px 80px;
+            border-radius: 20px;
+        
+        }
+        & .in1:hover{
+            background-color:#2b3445 ;
+            color: #9fc5ef;
+            
+        }
+    }
+
+& .div4{
+    border: 1px solid rgb(255, 234, 234);
+    width: 25%;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 10%, .1);
+    backdrop-filter: blur(8px);
+    transition: all .5s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+           
+            
+            
+            box-shadow: 0 0 5px rgb(248, 247, 247),0 0 25px rgb(248, 247, 247),0 0 50px rgb(248, 247, 247), 0 0 100px rgb(248, 247, 247);
+        }
+
+& img{
+    margin-left: 35px;
+    margin-top: 15px;
+    width: 250px;
+    border: 1px solid rgb(255, 234, 234);
+
+}
+& p{
+    text-align: center;
+    margin-top: 40px;
+}
+& .in1{
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 15px 80px;
+    border-radius: 20px;
+
+}
+& .in1:hover{
+    background-color:#2b3445 ;
+    color: #9fc5ef;}
+    
+}
+}
+
+.alpha{
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+& h1{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    font-size: 50px;
+
+
+    
+}
+& h2{
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    transform: translate(-60%,-55%);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    
+}
+
+.div7{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  
+& h2:nth-of-type(1){
+    text-align: center;
+    position: absolute;
+    left: 600px;
+    color: aliceblue;
+}
+& h2:nth-of-type(2){
+    text-align: center;
+    position: absolute;
+    left: 300px;
+    color: aliceblue;
+}
+& h2:nth-of-type(3){
+    text-align: center;
+    position: absolute;
+    left: 800px;
+    color: aliceblue;
+}
+& .fa-person{
+    margin-left: 50%;
+    margin-top: 50px;
+    font-size: 4rem;
+}
+}

@@ -1,0 +1,120 @@
+body{
+    background-color: gold;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    border-radius:16px ;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: large;
+
+}
+header nav a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 0 23px;
+    font-size: larger;
+    font-style: italic;
+
+}
+article{
+    border-radius: 20px;
+    background-color: rgb(240, 234, 234);
+    width: 300px;
+    height: 40px;
+    background: url(https://4kwallpapers.com/images/walls/thumbs_2t/14684.png);
+    background-size:cover ;
+    background-position: center;
+    transition: height .3s ease;
+    box-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000;
+    
+}
+
+article:hover {
+    background-color: gray;
+ 
+   height: 400px;
+   box-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000;
+}
+article:nth-of-type(3):hover{
+    background-color: gray;
+   
+    height: 400px;
+    position: relative;left: 945px;bottom: 150px;
+    box-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000;
+}
+article:nth-of-type(2):hover{
+    background-color: gray;
+   
+    height: 400px;
+    position: relative;left: 472.5px;bottom: 70px;
+    box-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000;
+ }
+
+
+article:nth-of-type(2)
+{
+    position: relative;left: 472.5px;bottom: 70px;
+    background: url(https://4kwallpapers.com/images/walls/thumbs_2t/16933.png);
+    background-size:cover ;
+    background-position: center;
+}
+article:nth-of-type(3)
+{
+    position: relative;left: 945px;bottom: 150px;
+    background: url(https://4kwallpapers.com/images/walls/thumbs_2t/16935.png);
+    background-size:cover ;
+    background-position: center;
+}
+article .mobn h2{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+}
+article .mo p{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: larger;
+    opacity: 0;
+  
+    
+}
+article .mo a{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: gold;
+    border-radius:20px ;
+    margin-left: 12px;
+    margin-right: 12px;
+    height: 40px;   
+    opacity: 0;
+    font-size: large;
+    transform: scale(0.5) translateY(30px);
+    transition: all 0.5s ease;
+}
+.mobn:hover .mo a,.mobn:hover .mo p{
+   opacity: 1;
+   transform: scale(1) translateY(0);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    padding-left: 500px;
+    padding-right: 550px;
+    border-radius: 16px;
+    background-color: rgb(0, 0, 0);
+    color: gold;
+}

@@ -1,0 +1,83 @@
+/* تنسيق الجسم */
+body {
+    background: url(https://wallpaperaccess.com/full/241346.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* القائمة */
+ul {
+    border: 3px solid rgb(255, 249, 249);
+    height: 80vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 30px;
+    text-align: center;
+    width: 20px; /* العرض الافتراضي */
+    list-style: none;
+    backdrop-filter: blur(18px);
+    transition: all .5s ease-in-out;
+}
+
+/* تأثير التكبير عند التمرير */
+ul li i {
+    color: #fff9f9;
+    transition: transform 0.3s ease;
+    
+}
+
+ul li i:hover {
+    transform: scale(1.3);
+}
+ul li {
+   
+    overflow: hidden;
+    flex-wrap: nowrap;
+    margin: 60px 0px 60px -40px;
+    
+    
+}
+/* تنسيق عناصر القائمة */
+ul .ml {
+   
+    overflow: hidden;
+    flex-wrap: nowrap;
+    margin: 60px 0px 60px -40px;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+input:checked ~ ul .ml{
+    opacity: 1;
+    
+}
+
+/* إخفاء مربع الاختيار */
+input {
+    display: none;
+}
+
+/* توسيع القائمة عند النقر على checkbox */
+input:checked ~ ul {
+    width: 300px; /* عرض القائمة عند النقر */
+    background-color: rgba(0, 0, 0, 0.7); /* تغيير اللون الخلفي */
+}
+
+/* إظهار الروابط تدريجيًا عند التوسعة */
+input:checked ~ ul li a {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+/* جعل الروابط غير مرئية بشكل افتراضي */
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
